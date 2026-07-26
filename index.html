@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduFrame — Бюро образовательных коммуникаций</title>
+  <meta name="description" content="Помогаем образовательным организациям создавать современную систему обучения — от привлечения слушателей до качественного образовательного процесса.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">EduFrame</a>
+      <nav class="header__nav">
+        <a href="https://t.me/" class="header__link" target="_blank">Telegram</a>
+        <a href="https://vk.com/" class="header__link" target="_blank">VK</a>
+      </nav>
+      <a href="#contacts" class="header__cta">Обсудить проект</a>
+      <button class="header__burger" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu">
+    <nav class="mobile-menu__nav">
+      <a href="#tasks" class="mobile-menu__link">Задачи</a>
+      <a href="#why" class="mobile-menu__link">Почему EduFrame</a>
+      <a href="#solutions" class="mobile-menu__link">Решения</a>
+      <a href="#process" class="mobile-menu__link">Процесс</a>
+      <a href="#projects" class="mobile-menu__link">Проекты</a>
+      <a href="#contacts" class="mobile-menu__link">Контакты</a>
+    </nav>
+    <div class="mobile-menu__social">
+      <a href="https://t.me/" class="mobile-menu__link" target="_blank">Telegram</a>
+      <a href="https://vk.com/" class="mobile-menu__link" target="_blank">VK</a>
+    </div>
+  </div>
+
+  <!-- 1. HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <p class="hero__tagline">От первого интереса к курсу до успешного обучения.</p>
+        <h1 class="hero__title">EduFrame</h1>
+        <p class="hero__subtitle">Бюро образовательных коммуникаций</p>
+        <p class="hero__description">Мы помогаем образовательным организациям создавать современную систему обучения — от привлечения будущих слушателей до качественного образовательного процесса.</p>
+        <a href="#contacts" class="btn btn--primary">Обсудить проект <span class="btn__arrow">&rarr;</span></a>
+      </div>
+      <div class="hero__visual">
+        <svg class="hero__diagram" viewBox="0 0 420 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="120" y1="40" x2="120" y2="340" stroke="#CBD5E1" stroke-width="2"/>
+
+          <circle cx="120" cy="40" r="20" fill="#fff" stroke="#0A2540" stroke-width="2"/>
+          <text x="120" y="45" text-anchor="middle" fill="#0A2540" font-size="12" font-weight="600">01</text>
+          <text x="152" y="45" fill="#0A2540" font-size="13" font-weight="600">Интерес</text>
+
+          <circle cx="120" cy="120" r="20" fill="#fff" stroke="#0A2540" stroke-width="2"/>
+          <text x="120" y="125" text-anchor="middle" fill="#0A2540" font-size="12" font-weight="600">02</text>
+          <text x="152" y="125" fill="#0A2540" font-size="13" font-weight="600">Запись</text>
+
+          <circle cx="120" cy="200" r="20" fill="#00A3A3" stroke="#00A3A3" stroke-width="2"/>
+          <text x="120" y="205" text-anchor="middle" fill="#fff" font-size="12" font-weight="600">03</text>
+          <text x="152" y="205" fill="#00A3A3" font-size="13" font-weight="700">Обучение</text>
+
+          <circle cx="120" cy="280" r="20" fill="#fff" stroke="#0A2540" stroke-width="2"/>
+          <text x="120" y="285" text-anchor="middle" fill="#0A2540" font-size="12" font-weight="600">04</text>
+          <text x="152" y="285" fill="#0A2540" font-size="13" font-weight="600">Практика</text>
+
+          <circle cx="120" cy="340" r="20" fill="#0A2540" stroke="#0A2540" stroke-width="2"/>
+          <text x="120" y="345" text-anchor="middle" fill="#fff" font-size="12" font-weight="600">05</text>
+          <text x="152" y="345" fill="#0A2540" font-size="13" font-weight="600">Результат</text>
+
+          <line x1="100" y1="40" x2="40" y2="40" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 3"/>
+          <text x="8" y="44" fill="#64748B" font-size="10" font-weight="500">Маркетинг</text>
+
+          <line x1="230" y1="200" x2="270" y2="200" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 3"/>
+          <text x="278" y="204" fill="#64748B" font-size="10" font-weight="500">Контент</text>
+
+          <line x1="100" y1="340" x2="40" y2="340" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 3"/>
+          <text x="8" y="344" fill="#64748B" font-size="10" font-weight="500">Методика</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ЗАДАЧИ -->
+  <section class="section section--white tasks" id="tasks">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__number">01</span>
+        <h2 class="section__title">Какие задачи мы решаем</h2>
+      </div>
+      <div class="tasks__grid">
+
+        <div class="tasks__card">
+          <h3 class="tasks__heading">Для руководителя</h3>
+          <ul class="tasks__list">
+            <li class="tasks__item">
+              <span class="tasks__check">&#10003;</span>
+              <div>
+                <strong>Привлечь больше слушателей.</strong>
+                Создаём маркетинговые материалы, которые работают на набор на программы.
+              </div>
+            </li>
+            <li class="tasks__item">
+              <span class="tasks__check">&#10003;</span>
+              <div>
+                <strong>Современно оформить программы.</strong>
+                Обновляем презентации, методические пособия и визуал до актуальных стандартов.
+              </div>
+            </li>
+            <li class="tasks__item">
+              <span class="tasks__check">&#10003;</span>
+              <div>
+                <strong>Разгрузить преподавателей.</strong>
+                Берём на себя подготовку учебных материалов, чтобы преподаватели сосредоточились на преподавании.
+              </div>
+            </li>
+            <li class="tasks__item">
+              <span class="tasks__check">&#10003;</span>
+              <div>
+                <strong>Создать единый стиль обучения.</strong>
+                Все материалы — от рекламных роликов до рабочих тетрадей — выдерживают один визуальный и содержательный стиль.
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tasks__card">
+          <h3 class="tasks__heading">Для преподавателя</h3>
+          <ul class="tasks__list">
+            <li class="tasks__item">
+              <span class="tasks__check">&#10003;</span>
+              <div>
+                <strong>Подготовить качественное занятие.</strong>
+                Получить готовый комплект материалов к каждому занятию.
+              </div>
+            </li>
+            <li class="tasks__item">
+              <span class="tasks__check">&#10003;</span>
+              <div>
+                <strong>Создать презентацию.</strong>
+                Современная, структурированная презентация, которая удерживает внимание.
+              </div>
+            </li>
+            <li class="tasks__item">
+              <span class="tasks__check">&#10003;</span>
+              <div>
+                <strong>Сделать видеоурок.</strong>
+                Профессиональный видео контент для дистанционного обучения.
+              </div>
+            </li>
+            <li class="tasks__item">
+              <span class="tasks__check">&#10003;</span>
+              <div>
+                <strong>Подготовить тесты и раздаточные материалы.</strong>
+                Всё необходимое для проверки знаний и самостоятельной работы.
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. ПОЧЕМУ EDUFRAME -->
+  <section class="section section--gray why" id="why">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__number">02</span>
+        <h2 class="section__title">Почему EduFrame</h2>
+      </div>
+      <p class="why__lead">Отдельные материалы не решают задачу.<br>Работает только система, в которой маркетинговые и учебные материалы дополняют друг друга.</p>
+
+      <div class="why__grid">
+        <div class="why__card">
+          <div class="why__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <h3 class="why__card-title">Маркетинг</h3>
+          <p class="why__card-text">Привлекает слушателей и формирует доверие до начала обучения.</p>
+        </div>
+        <div class="why__card">
+          <div class="why__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
+          <h3 class="why__card-title">Учебные материалы</h3>
+          <p class="why__card-text">Поддерживают преподавателя и делают процесс обучения комфортным.</p>
+        </div>
+        <div class="why__card">
+          <div class="why__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+          </div>
+          <h3 class="why__card-title">Методические ресурсы</h3>
+          <p class="why__card-text">Помогают слушателю лучше усваивать знания и применять их на практике.</p>
+        </div>
+      </div>
+
+      <p class="why__note">ИИ ускоряет процесс создания, но содержание и педагогическая логика остаются в центре внимания.</p>
+    </div>
+  </section>
+
+  <!-- 4. ЧТО СОЗДАЕМ -->
+  <section class="section section--white solutions" id="solutions">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__number">03</span>
+        <h2 class="section__title">Что мы создаем</h2>
+      </div>
+      <div class="solutions__groups">
+
+        <div class="solutions__group">
+          <h3 class="solutions__group-title">
+            <span class="solutions__group-label solutions__group-label--attract">Привлекаем</span>
+          </h3>
+          <div class="solutions__grid">
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="23 7 16 12 23 17 23 7"/>
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                </svg>
+              </div>
+              <span>Рекламные ролики</span>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21.21 15.89A10 10 0 1 1 8 2.83"/>
+                  <path d="M22 12A10 10 0 0 0 12 2v10z"/>
+                </svg>
+              </div>
+              <span>Инфографика</span>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+              </div>
+              <span>Лид-магниты</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="solutions__group">
+          <h3 class="solutions__group-title">
+            <span class="solutions__group-label solutions__group-label--teach">Обучаем</span>
+          </h3>
+          <div class="solutions__grid">
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="23 7 16 12 23 17 23 7"/>
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                </svg>
+              </div>
+              <span>Видеоуроки</span>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                  <line x1="8" y1="21" x2="16" y2="21"/>
+                  <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+              </div>
+              <span>Презентации</span>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                </svg>
+              </div>
+              <span>Рабочие тетради</span>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                  <line x1="12" y1="19" x2="12" y2="23"/>
+                  <line x1="8" y1="23" x2="16" y2="23"/>
+                </svg>
+              </div>
+              <span>Подкасты</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="solutions__group">
+          <h3 class="solutions__group-title">
+            <span class="solutions__group-label solutions__group-label--retain">Закрепляем знания</span>
+          </h3>
+          <div class="solutions__grid">
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                  <line x1="12" y1="17" x2="12.01" y2="17"/>
+                </svg>
+              </div>
+              <span>Тесты и квизы</span>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14 2 14 8 20 8"/>
+                  <line x1="16" y1="13" x2="8" y2="13"/>
+                  <line x1="16" y1="17" x2="8" y2="17"/>
+                </svg>
+              </div>
+              <span>Методические материалы</span>
+            </div>
+            <div class="solutions__item">
+              <div class="solutions__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 11l3 3L22 4"/>
+                  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                </svg>
+              </div>
+              <span>Памятки и чек-листы</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <p class="solutions__note">Каждый материал создаётся для конкретной задачи и становится частью единой образовательной системы.</p>
+    </div>
+  </section>
+
+  <!-- 5. КАК РАБОТАЕМ -->
+  <section class="section section--gray process" id="process">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__number">04</span>
+        <h2 class="section__title">Как работаем</h2>
+      </div>
+      <div class="process__steps">
+        <div class="process__step">
+          <div class="process__number">1</div>
+          <h3 class="process__step-title">Диагностика</h3>
+          <p class="process__step-text">Разбираемся в задачах: что нужно привлечь, обучить или обновить.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__number">2</div>
+          <h3 class="process__step-title">Проектирование</h3>
+          <p class="process__step-text">Определяем, какие материалы нужны и как они будут работать вместе.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__number">3</div>
+          <h3 class="process__step-title">Создание</h3>
+          <p class="process__step-text">Разрабатываем каждый элемент с учётом содержания и визуального стиля.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__number">4</div>
+          <h3 class="process__step-title">Согласование</h3>
+          <p class="process__step-text">Корректируем по обратной связи, чтобы результат точно соответствовал задаче.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__number">5</div>
+          <h3 class="process__step-title">Передача</h3>
+          <p class="process__step-text">Готовые материалы и рекомендации по их использованию.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. ПРИМЕРЫ РЕШЕНИЙ -->
+  <section class="section section--white projects" id="projects">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__number">05</span>
+        <h2 class="section__title">Примеры решений</h2>
+      </div>
+      <div class="projects__item">
+        <h4 class="projects__subtitle">Видеоматериалы</h4>
+        <div class="projects__media-grid projects__media-grid--videos">
+          <video class="projects__video" controls preload="metadata">
+            <source src="videoframe/A1.mp4" type="video/mp4">
+          </video>
+          <video class="projects__video" controls preload="metadata">
+            <source src="videoframe/A1_01.mp4" type="video/mp4">
+          </video>
+          <video class="projects__video" controls preload="metadata">
+            <source src="videoframe/Pozharka.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <h4 class="projects__subtitle">Презентация</h4>
+        <div class="projects__media-grid projects__media-grid--preview">
+          <a href="prezframe/Presentation_A_A1.pdf" class="projects__pdf-link" target="_blank">
+            <img src="prezframe/picture/Presentation_A_A1.jpg" alt="Презентация A1" class="projects__presentation-img">
+          </a>
+        </div>
+
+        <h4 class="projects__subtitle">Инфографика — горизонтальные</h4>
+        <div class="projects__media-grid projects__media-grid--images-h">
+          <img src="izoframe/Final_1.png" alt="Материал 1" class="projects__image">
+          <img src="izoframe/Final_2.png" alt="Материал 2" class="projects__image">
+          <img src="izoframe/Final_3.png" alt="Материал 3" class="projects__image">
+          <img src="izoframe/Final_4.png" alt="Материал 4" class="projects__image">
+          <img src="izoframe/Final_5.png" alt="Материал 5" class="projects__image">
+        </div>
+
+        <h4 class="projects__subtitle">Инфографика — вертикальные</h4>
+        <div class="projects__media-grid projects__media-grid--images-v">
+          <img src="izoframe/Final_6.png" alt="Материал 6" class="projects__image">
+          <img src="izoframe/Final_7.png" alt="Материал 7" class="projects__image">
+          <img src="izoframe/Final_8.png" alt="Материал 8" class="projects__image">
+          <img src="izoframe/Final_9.png" alt="Материал 9" class="projects__image">
+          <img src="izoframe/Final_10.png" alt="Материал 10" class="projects__image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. КОНТАКТЫ -->
+  <section class="section section--gray contacts" id="contacts">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__number">06</span>
+        <h2 class="section__title">Давайте обсудим ваш проект</h2>
+      </div>
+      <p class="contacts__subtitle">Напишите нам — ответим в течение рабочего дня.</p>
+
+      <div class="contacts__links">
+        <a href="https://t.me/" class="contacts__link" target="_blank">Telegram</a>
+        <a href="https://vk.com/" class="contacts__link" target="_blank">VK</a>
+      </div>
+
+      <form class="contacts__form">
+        <input type="text" class="contacts__input" placeholder="Имя" required>
+        <input type="text" class="contacts__input" placeholder="Телефон / Telegram" required>
+        <textarea class="contacts__textarea" placeholder="Сообщение" rows="4"></textarea>
+        <button type="submit" class="btn btn--primary">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <span class="footer__logo">EduFrame</span>
+        <span class="footer__tagline">Бюро образовательных коммуникаций</span>
+      </div>
+      <div class="footer__social">
+        <a href="https://t.me/" class="footer__link" target="_blank">Telegram</a>
+        <a href="https://vk.com/" class="footer__link" target="_blank">VK</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Закрыть">&times;</button>
+    <button class="lightbox__prev" aria-label="Назад">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6"/>
+      </svg>
+    </button>
+    <button class="lightbox__next" aria-label="Вперёд">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </button>
+    <div class="lightbox__content">
+      <img class="lightbox__img" src="" alt="">
+    </div>
+    <div class="lightbox__counter"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
