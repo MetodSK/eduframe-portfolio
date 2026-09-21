@@ -93,5 +93,5 @@ eduframe-portfolio/
 ├── eduframe-website-text.md   # Тексты веб-презентации
 ├── index.html                 # Веб-презентация проекта
 ├── styles.css                 # Стили и адаптивная вёрстка
-├── script.js                  # Интерактив и JavaScript
-└── test.txt                   # Временный файл
+└── script.js                  # Интерактив и JavaScript
+ 
